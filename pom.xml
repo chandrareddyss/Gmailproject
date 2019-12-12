@@ -31,7 +31,7 @@
         <version>3.0.0-M4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile></suiteXmlFile>
+            <suiteXmlFile>testsufile/parallel.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
