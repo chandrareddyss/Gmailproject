@@ -38,7 +38,7 @@ public void beforemethod(@Optional String url,@Optional String browser) throws I
 	Thread.sleep(5000);
 	Driver1.get().get(url);
 }
-    @AfterMethod(alwaysRun = true) 
+    @AfterMethod(alwaysRun = true)  
     public void aftermethod() {
     	Driver1.get().close();
     	System.out.println("close browser");
