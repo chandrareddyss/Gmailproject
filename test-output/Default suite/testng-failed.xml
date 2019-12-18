@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gmailproject.gmailproject.Ttitle">
+      <class name="framework.Searchword">
         <methods>
-          <include name="aftermethod"/>
-          <include name="test2"/>
-          <include name="test1"/>
+          <include name="method2"/>
           <include name="beforemethod"/>
+          <include name="aftermethod"/>
         </methods>
-      </class> <!-- gmailproject.gmailproject.Ttitle -->
+      </class> <!-- framework.Searchword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
